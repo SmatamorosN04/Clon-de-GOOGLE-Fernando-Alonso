@@ -1,4 +1,7 @@
-
+*{
+    margin:0;
+    padding:0;
+}
 
 body {
     margin: 0;
@@ -20,32 +23,31 @@ header{
     background-color: #015352;
     width: 100%;
     height: 60px;
-
+    box-sizing: border-box;
 }
 header nav{
     display: flex;
     justify-content: flex-end;
+    height: 100%;
 }
 header nav .nav-right-section { 
     width: 250px;
-    height: auto;
+    height: 100%;
     display: flex;
     justify-content: center;
-    align-items: none;
+    align-items: center;
     list-style-type:none;
+    text-align: center;
+    
 }
 nav .nav-right-section a {
-    margin-right: 10px;
     color: #fff;
 
 }
 nav .nav-right-section .gmail-text{
-    padding-top: 10px;
-    margin-right: 15px;
+margin-right: 15px;
 }
 nav .nav-right-section .imagen-text{
-    padding-top: 10px;
-    margin-right: 15px;
 }
 
 
@@ -59,9 +61,8 @@ nav .nav-right-section .menu-icon{
 }
 nav .nav-right-section img{
     border-radius: 50%;
-    margin-left: 10px;
     height: 45px;
-    width: 45px;
+    width: auto;
 }
 main{
     margin-top: 200px;
@@ -109,6 +110,7 @@ background-position: center;
 background-size: contain;
 height: 18px;
 width: 18px;
+padding-right: 18px;
 opacity: 0.5;
 }
 main .main-input .micro-icon{
@@ -119,6 +121,7 @@ background-size: contain;
 width: 18px;
 height: 18px; 
 cursor: pointer;
+padding-left: 18px;
 }
 main .main-buttons{ 
     width: 530px;
@@ -132,7 +135,7 @@ main .main-buttons button {
     background-color: #f2f2f2;
     border: none; 
     font-size: 14px;
-    color: #23232768;
+    color: #005b56;
     border-radius: 5px;
     padding: 0 15px;
     margin-right: 15px;
